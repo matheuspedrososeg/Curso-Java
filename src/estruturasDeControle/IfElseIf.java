@@ -19,9 +19,15 @@ public class IfElseIf {
             } else {
                 if(nota >= 6.1) {
                     System.out.println("Conceito B");
+                } else if(nota >= 4.1) {
+                    System.out.println("Conceito C");
+                } else if(nota >= 2.1) {
+                    System.out.println("Conceito D");
+                } else {
+                    System.out.println("Conceito E");
                 }
 
-
+                System.out.println("Fim");
             scanner.close();
         }
     }
